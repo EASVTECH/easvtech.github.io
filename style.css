@@ -1,105 +1,48 @@
 
 body {
-  margin: 0;
-  background: #050011;
-  font-family: 'Arial', sans-serif;
-  color: white;
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-bottom: 3px solid #8e44ad;
 }
-.logo {
-  font-size: 1.5rem;
-  color: #0ff;
+header h1 {
+    color: #8e44ad;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
-.logo span {
-  color: #f0f;
+header p {
+    color: #ccc;
+    font-size: 1.2em;
 }
-nav a {
-  margin-left: 15px;
-  font-size: 1.5rem;
-  color: #f0f;
-  text-decoration: none;
+.redes {
+    padding: 15px;
+    background-color: #111;
 }
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(90deg, #ff00ff, #00ffff);
+.redes a {
+    color: #8e44ad;
+    margin: 0 10px;
+    font-size: 1.8em;
+    text-decoration: none;
 }
-.hero h1 {
-  font-size: 3rem;
-  margin: 0;
+main {
+    padding: 20px;
 }
-.hero h1 span {
-  color: #fff;
+.categoria {
+    margin: 25px 0;
+    padding: 15px;
+    background: #1f1f1f;
+    border-left: 5px solid #8e44ad;
 }
-.hero p {
-  font-size: 1.2rem;
-  margin: 20px 0;
-}
-.cta {
-  display: inline-block;
-  background: #ff00ff;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
-}
-.catalogo {
-  padding: 40px 20px;
-  text-align: center;
-}
-.catalogo h2 {
-  font-size: 2rem;
-  color: #0ff;
-}
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
-}
-.card {
-  background: #111;
-  border: 2px solid #333;
-  border-radius: 20px;
-  width: 250px;
-  padding: 20px;
-}
-.card img {
-  width: 100%;
-  border-radius: 10px;
-}
-.card h3 {
-  margin: 15px 0 10px;
-}
-.etiqueta {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  margin-top: 10px;
-}
-.popular {
-  background: #ff00ff;
-}
-.recomendada {
-  background: #00f;
-}
-.premium {
-  background: #ffa500;
-}
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 2.5rem;
-  color: #25d366;
-  text-decoration: none;
+footer {
+    background-color: #111;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #aaa;
 }
